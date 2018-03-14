@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>LetsMove.Binding</id>
+		<version>1.24.1</version>
+		<title>LetsMove - Xamarin OS X Binding</title>
+		<authors>Michiel Sioen</authors>
+		<owners>Michiel Sioen</owners>
+		<licenseUrl>https://github.com/msioen/LetsMove.Binding/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/msioen/LetsMove.Binding</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Move a running Mac OS X application to the Applications folder.</description>
+		<tags>xamarin, xamarin.mac, mac, letsmove</tags>
+		<dependencies>
+		</dependencies>
+	</metadata>
+	<files>
+
+	<file src="..\LetsMove.Binding\bin\Release\LetsMove.Binding.dll" target="lib\xamarinmac20\LetsMove.Binding.dll" />
+
+	</files>
+</package>
