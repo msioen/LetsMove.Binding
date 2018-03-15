@@ -18,5 +18,10 @@ namespace LetsMove.Binding.Test
         public override void WillTerminate(NSNotification notification)
         {
         }
-    }
+
+		public override bool ApplicationShouldTerminateAfterLastWindowClosed(NSApplication sender)
+		{
+            return true;
+		}
+	}
 }
